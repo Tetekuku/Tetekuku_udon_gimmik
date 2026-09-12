@@ -11,7 +11,9 @@
 ## セットアップ
 
 1. 街灯の GameObject に `Add Component > Tetekuku > Street Light` を追加する
-2. インスペクタの `Light Fall` に、光の落ちを表す GameObject（例: `light_fall`）を設定する
+2. インスペクタの「Light Fall を自動検索して配線」ボタンを押す
+   - 街灯の子オブジェクトから名前が `light_fall` の GameObject を探し、`Light Fall` に自動で設定する
+   - 見つからない場合はダイアログが出るので、`Light Fall` に手動で設定するか、子オブジェクトの名前を確認する
 3. 必要であれば `Radius` を変更する（既定は 3）
 
 ## インスペクタ項目
